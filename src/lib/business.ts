@@ -5,10 +5,12 @@ export const business = {
   phoneHref: "tel:+61423850602",
   smsNumber: "+61423850602",
   mapsUrl: "https://maps.app.goo.gl/cmovwUKJaud3tnC18",
+  facebookUrl: "https://www.facebook.com/p/JLJ-Roofing-100063714176094/",
 } as const;
 
 export const services = [
-  { id: "restorations", title: "Roof restorations", short: "Bring your roof back to life", description: "Give an ageing roof a fresh start. Restore its appearance and condition, and help protect your home for the years ahead.", detail: "Tell us about your roof’s age, its condition and any areas you’re concerned about. We’ll discuss the restoration work that may be suitable for your home.", crop: "restoration" },
-  { id: "repairs", title: "Roof repairs", short: "Take care of the little things", description: "A leak or a damaged tile shouldn’t become a bigger problem. Get help finding the cause and the right repair for your roof.", detail: "Let us know where you’ve noticed a leak, broken tiles or storm damage. For urgent roofing enquiries, please call us directly.", crop: "repair" },
-  { id: "replacements", title: "Roof replacements", short: "A new roof. A fresh start.", description: "When your roof is ready for a new chapter, talk through your options and find a solution that suits your home.", detail: "We’ll discuss your existing roof, the result you’re looking for and the next steps for a replacement quote.", crop: "replacement" },
+  { id: "restorations", title: "Roof restorations", short: "Refresh the roof you have", description: "Looking to revive an ageing roof? Ask about restoration options and what work could make sense for your home.", detail: "Share your roof type and what you have noticed, and discuss the next step for a restoration quote.", crop: "restoration" },
+  { id: "repairs", title: "Roof repairs", short: "Leaks, damage and wear", description: "Noticed a leak or roof damage? Speak with JLJ Roofing about the problem and how it can be addressed.", detail: "For urgent water entry or storm damage, call rather than relying on the website form.", crop: "repair" },
+  { id: "replacements", title: "Roof replacements", short: "A new roof for a new chapter", description: "When a roof is past its best, explore the next step towards replacing it with something right for your property.", detail: "Tell the team about your existing roof and discuss your replacement options.", crop: "replacement" },
+  { id: "emergency", title: "Emergency roof repairs", short: "When the roof needs attention", description: "A roof leak can’t always wait. Call JLJ Roofing to ask about emergency repair availability.", detail: "Availability and timing must be confirmed directly with JLJ Roofing.", crop: "repair" },
 ] as const;

@@ -8,11 +8,10 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "JLJ Roofing Melbourne | Roof Restorations, Repairs & Replacements",
-  description: "Roof restorations, repairs and replacements across Melbourne. Speak with JLJ Roofing about your roof and request a free quote. Call 0423 850 602.",
+  description: "JLJ Roofing provides roof restorations, roof repairs, emergency repairs and replacements across metropolitan Melbourne. Enquire about your roof or call 0423 850 602.",
   icons: { icon: "/favicon.svg" },
-  // This is a proposal website; enable indexing when the business approves its content.
   robots: { index: false, follow: false },
-  openGraph: { title: "JLJ Roofing Melbourne", description: "A better roof. A better-protected home.", locale: "en_AU", type: "website" },
+  openGraph: { title: "JLJ Roofing Melbourne", description: "Your roof. Looked after. Your home. Protected.", locale: "en_AU", type: "website" },
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
